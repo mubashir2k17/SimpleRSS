@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A70927A21175B3300EC0A77 /* SimpleRSSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */; };
+		4A70927C2117669700EC0A77 /* RSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70927B2117669700EC0A77 /* RSS.swift */; };
 		4ADBD6392117546A00903DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBD6382117546A00903DD0 /* AppDelegate.swift */; };
-		4ADBD63B2117546A00903DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBD63A2117546A00903DD0 /* ViewController.swift */; };
 		4ADBD63E2117546A00903DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD63C2117546A00903DD0 /* Main.storyboard */; };
 		4ADBD6402117546A00903DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD63F2117546A00903DD0 /* Assets.xcassets */; };
 		4ADBD6432117546A00903DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD6412117546A00903DD0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRSSVC.swift; sourceTree = "<group>"; };
+		4A70927B2117669700EC0A77 /* RSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS.swift; sourceTree = "<group>"; };
 		4ADBD6352117546A00903DD0 /* SimpleRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADBD6382117546A00903DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4ADBD63A2117546A00903DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4ADBD63D2117546A00903DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ADBD63F2117546A00903DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADBD6422117546A00903DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4ADBD6382117546A00903DD0 /* AppDelegate.swift */,
-				4ADBD63A2117546A00903DD0 /* ViewController.swift */,
 				4ADBD63C2117546A00903DD0 /* Main.storyboard */,
+				4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */,
 				4ADBD63F2117546A00903DD0 /* Assets.xcassets */,
 				4ADBD6412117546A00903DD0 /* LaunchScreen.storyboard */,
 				4ADBD6442117546A00903DD0 /* Info.plist */,
+				4A70927B2117669700EC0A77 /* RSS.swift */,
 			);
 			path = SimpleRSS;
 			sourceTree = "<group>";
@@ -136,8 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ADBD63B2117546A00903DD0 /* ViewController.swift in Sources */,
 				4ADBD6392117546A00903DD0 /* AppDelegate.swift in Sources */,
+				4A70927A21175B3300EC0A77 /* SimpleRSSVC.swift in Sources */,
+				4A70927C2117669700EC0A77 /* RSS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
