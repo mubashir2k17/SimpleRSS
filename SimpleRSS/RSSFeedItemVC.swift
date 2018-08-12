@@ -2,7 +2,7 @@
 //  RSSFeedItemVC.swift
 //  SimpleRSS
 //
-//  Created by Tintash on 12/08/2018.
+//  Created by Mubashir on 12/08/2018.
 //  Copyright © 2018 AsadJamil. All rights reserved.
 //
 
@@ -15,27 +15,26 @@ class RSSFeedItemVC: UIViewController {
 
     @IBOutlet weak var titleLbl: UILabel!
 
+    @IBOutlet weak var imageView: UIImageView!
+
+    @IBOutlet weak var imageViewHeight: NSLayoutConstraint!
+
+    @IBOutlet weak var descriptionLblTopConstraint: NSLayoutConstraint!
+
+    @IBOutlet weak var descriptionLbl: UILabel!
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         titleLbl.text = rssFeedItem?.title
+        descriptionLbl.text = rssFeedItem?.description
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
