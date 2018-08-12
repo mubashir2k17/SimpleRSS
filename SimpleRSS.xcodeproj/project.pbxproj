@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		4A70927A21175B3300EC0A77 /* SimpleRSSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */; };
 		4A70927C2117669700EC0A77 /* RSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A70927B2117669700EC0A77 /* RSS.swift */; };
+		4A87DB14211FFFD8002FE42C /* RSSFeedItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A87DB13211FFFD8002FE42C /* RSSFeedItemVC.swift */; };
 		4ADBD6392117546A00903DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADBD6382117546A00903DD0 /* AppDelegate.swift */; };
 		4ADBD63E2117546A00903DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD63C2117546A00903DD0 /* Main.storyboard */; };
 		4ADBD6402117546A00903DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD63F2117546A00903DD0 /* Assets.xcassets */; };
 		4ADBD6432117546A00903DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADBD6412117546A00903DD0 /* LaunchScreen.storyboard */; };
+		FB445AC6386022C5A93E2864 /* Pods_SimpleRSS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3CF2A4543D7EED0C41F3B9 /* Pods_SimpleRSS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D7CDBB7330A9BDACD2A0E30 /* Pods-SimpleRSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRSS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRSS/Pods-SimpleRSS.debug.xcconfig"; sourceTree = "<group>"; };
 		4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRSSVC.swift; sourceTree = "<group>"; };
 		4A70927B2117669700EC0A77 /* RSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSS.swift; sourceTree = "<group>"; };
+		4A87DB13211FFFD8002FE42C /* RSSFeedItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeedItemVC.swift; sourceTree = "<group>"; };
 		4ADBD6352117546A00903DD0 /* SimpleRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ADBD6382117546A00903DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4ADBD63D2117546A00903DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4ADBD63F2117546A00903DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ADBD6422117546A00903DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4ADBD6442117546A00903DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7D9F65EA82B78F3B7E8143 /* Pods-SimpleRSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleRSS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleRSS/Pods-SimpleRSS.release.xcconfig"; sourceTree = "<group>"; };
+		FE3CF2A4543D7EED0C41F3B9 /* Pods_SimpleRSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleRSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB445AC6386022C5A93E2864 /* Pods_SimpleRSS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30C3C5B74558EA86D7963C4B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D7CDBB7330A9BDACD2A0E30 /* Pods-SimpleRSS.debug.xcconfig */,
+				BD7D9F65EA82B78F3B7E8143 /* Pods-SimpleRSS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4ADBD62C2117546A00903DD0 = {
 			isa = PBXGroup;
 			children = (
 				4ADBD6372117546A00903DD0 /* SimpleRSS */,
 				4ADBD6362117546A00903DD0 /* Products */,
+				30C3C5B74558EA86D7963C4B /* Pods */,
+				9DE98F4D61C616414F5066C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,7 @@
 			children = (
 				4ADBD6382117546A00903DD0 /* AppDelegate.swift */,
 				4ADBD63C2117546A00903DD0 /* Main.storyboard */,
+				4A87DB13211FFFD8002FE42C /* RSSFeedItemVC.swift */,
 				4A70927921175B3300EC0A77 /* SimpleRSSVC.swift */,
 				4ADBD63F2117546A00903DD0 /* Assets.xcassets */,
 				4ADBD6412117546A00903DD0 /* LaunchScreen.storyboard */,
@@ -67,6 +86,14 @@
 			path = SimpleRSS;
 			sourceTree = "<group>";
 		};
+		9DE98F4D61C616414F5066C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3CF2A4543D7EED0C41F3B9 /* Pods_SimpleRSS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ADBD6472117546A00903DD0 /* Build configuration list for PBXNativeTarget "SimpleRSS" */;
 			buildPhases = (
+				B2C349B594890CD18431558E /* [CP] Check Pods Manifest.lock */,
 				4ADBD6312117546A00903DD0 /* Sources */,
 				4ADBD6322117546A00903DD0 /* Frameworks */,
 				4ADBD6332117546A00903DD0 /* Resources */,
+				C80DA606978B7F28C5139A82 /* [CP] Embed Pods Frameworks */,
+				8E16C300E2F35B0BF5EF8D6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +164,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E16C300E2F35B0BF5EF8D6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRSS/Pods-SimpleRSS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C349B594890CD18431558E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleRSS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C80DA606978B7F28C5139A82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRSS/Pods-SimpleRSS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FeedKit/FeedKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FeedKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleRSS/Pods-SimpleRSS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4ADBD6312117546A00903DD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +225,7 @@
 			files = (
 				4ADBD6392117546A00903DD0 /* AppDelegate.swift in Sources */,
 				4A70927A21175B3300EC0A77 /* SimpleRSSVC.swift in Sources */,
+				4A87DB14211FFFD8002FE42C /* RSSFeedItemVC.swift in Sources */,
 				4A70927C2117669700EC0A77 /* RSS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +361,7 @@
 		};
 		4ADBD6482117546A00903DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D7CDBB7330A9BDACD2A0E30 /* Pods-SimpleRSS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,6 +377,7 @@
 		};
 		4ADBD6492117546A00903DD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD7D9F65EA82B78F3B7E8143 /* Pods-SimpleRSS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
